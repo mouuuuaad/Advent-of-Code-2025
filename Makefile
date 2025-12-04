@@ -14,6 +14,7 @@ go-test:
 	@echo "Running Go tests..."
 	cd go && go test ./...
 
+	
 go-run:
 	@if [ -z "$(DAY)" ]; then echo "Usage: make go-run DAY=1"; exit 1; fi
 	@printf -v day "%02d" $(DAY)
