@@ -67,6 +67,7 @@ yarn-error.log*
 dist/
 .next/
 out/
+
 # Advent of Code inputs (respect AoC policy)
 **/input.txt
 **/input*.txt
