@@ -31,4 +31,4 @@ inline std::vector<std::string> read_lines(const std::string& filename) {
     return lines;
 }
 
-} // namespace aoc
+} 
