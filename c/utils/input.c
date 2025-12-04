@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Read entire file into a buffer
 char* read_input(const char* filename) {
     FILE* f = fopen(filename, "rb");
     if (!f) return NULL;

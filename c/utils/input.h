@@ -4,3 +4,4 @@
 char* read_input(const char* filename);
 
 #endif
+
