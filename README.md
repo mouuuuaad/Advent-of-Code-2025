@@ -152,14 +152,6 @@ README.md     # Problem description
 
 All languages include shared utility modules in their respective directories.
 
-## 🧪 Testing
-
-All solutions include:
-- Unit tests with example inputs
-- Automated CI via GitHub Actions
-- Test coverage reporting (Python)
-- Race condition detection (Go)
-
 ## 📜 License
 
 MIT License - see [LICENSE](LICENSE) file for details
