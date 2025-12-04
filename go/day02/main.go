@@ -53,7 +53,6 @@ func isInvalidPart2(n int) bool {
 	}
 	return false
 }
-
 func solvePart2(input string) int {
 	ranges := strings.Split(input, ",")
 	totalSum := 0

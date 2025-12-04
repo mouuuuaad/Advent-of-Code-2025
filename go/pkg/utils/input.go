@@ -6,7 +6,6 @@ import (
 	"strings"
 )
 
-// ReadInput reads the entire file and returns it as a string
 func ReadInput(filename string) (string, error) {
 	data, err := os.ReadFile(filename)
 	if err != nil {
@@ -15,7 +14,6 @@ func ReadInput(filename string) (string, error) {
 	return string(data), nil
 }
 
-// ReadLines reads the file and returns it as a slice of lines
 func ReadLines(filename string) ([]string, error) {
 	file, err := os.Open(filename)
 	if err != nil {
@@ -36,7 +34,6 @@ func ReadLines(filename string) ([]string, error) {
 	return lines, nil
 }
 
-// MustReadInput reads the file and panics on error
 func MustReadInput(filename string) string {
 	input, err := ReadInput(filename)
 	if err != nil {
@@ -45,7 +42,6 @@ func MustReadInput(filename string) string {
 	return input
 }
 
-// MustReadLines reads lines from file and panics on error
 func MustReadLines(filename string) []string {
 	lines, err := ReadLines(filename)
 	if err != nil {
@@ -54,7 +50,6 @@ func MustReadLines(filename string) []string {
 	return lines
 }
 
-// JoinLines joins lines with newline separator
 func JoinLines(lines []string) string {
 	return strings.Join(lines, "\n")
 }

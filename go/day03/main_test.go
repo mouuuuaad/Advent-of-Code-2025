@@ -14,7 +14,6 @@ func TestSolvePart1(t *testing.T) {
 		t.Errorf("Expected %d, got %d", expected, result)
 	}
 }
-
 func TestSolvePart2(t *testing.T) {
 	input := `987654321111111
 811111111111119

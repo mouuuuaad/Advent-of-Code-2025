@@ -9,7 +9,6 @@ Identify invalid product IDs within given ranges based on repeating digit patter
 **Part 1**: Find IDs where the number splits perfectly in half with identical halves (e.g., 1212, 567567).
 
 **Part 2**: Find IDs where the entire number is made of a repeating pattern of any length (e.g., 111, 123123, 4545).
-
 ## Solution Approach
 
 **Part 1**:

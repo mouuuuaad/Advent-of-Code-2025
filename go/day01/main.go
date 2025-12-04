@@ -78,7 +78,6 @@ func solvePart2(input string) int {
 			}
 		}
 	}
-
 	return zeroCount
 }
 

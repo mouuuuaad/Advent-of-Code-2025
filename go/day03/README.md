@@ -9,7 +9,6 @@ Calculate maximum joltage from battery banks and sum them up.
 ## Solution Approach
 
 Process battery bank configurations to find maximum joltage values.
-
 ## How to Run
 
 ```bash
