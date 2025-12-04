@@ -8,9 +8,9 @@ This repository showcases solutions in different programming languages, with 4-5
 
 ```
 ├── go/            # Days 1-4   (Go) ✅
-├── python/        # Days 5-9   (Python) - Structure ready
-├── typescript/    # Days 10-14 (TypeScript/Node.js) - Structure ready
-└── javascript/    # Days 15-19 (JavaScript) - Structure ready
+├── c/             # Days 5-9   (C) - Structure ready
+├── cpp/           # Days 10-14 (C++) - Structure ready
+└── odin/          # Days 15-19 (Odin) - Structure ready
 ```
 
 Each language directory contains:
@@ -32,58 +32,71 @@ cd go && go test ./...
 cd go/day01 && go run main.go
 
 # Using Makefile
-make go-test
 make go-run DAY=1
 ```
 
-### Python Solutions (Days 5-9)
+### C Solutions (Days 5-9)
 
-**Prerequisites**: Python 3.10 or higher
+**Prerequisites**: GCC or Clang
 
 **Status**: Directory structure ready, awaiting problem releases.
 
 ```bash
-# Setup virtual environment (when ready to start)
-make python-setup
-
-# Each day will have:
-# - solution.py (main solution)
-# - test_solution.py (unit tests)
-# - README.md (problem description)
+# Compile and run
+cd c/day05
+gcc -o solution main.c ../utils/input.c
+./solution
 ```
 
-### TypeScript Solutions (Days 10-14)
+### C++ Solutions (Days 10-14)
 
-**Prerequisites**: Node.js 18+ and npm
+**Prerequisites**: GCC/Clang with C++20 support
 
 **Status**: Directory structure ready, awaiting problem releases.
 
 ```bash
-# Each day will have:
-# - solution.ts (main solution)
-# - test.ts (unit tests)
-# - README.md (problem description)
+# Compile and run
+cd cpp/day10
+g++ -std=c++20 -o solution main.cpp -I../utils
+./solution
+```
+
+### Odin Solutions (Days 15-19)
+
+**Prerequisites**: Odin compiler
+
+**Status**: Directory structure ready, awaiting problem releases.
+
+```bash
+# Run
+cd odin/day15
+odin run .
 ```
 
 ## 📊 Progress
 
-| Day | Language   | Part 1 | Part 2 | Solution |
-|-----|------------|--------|--------|----------|
-| 01  | Go         | ⭐     | ⭐     | [go/day01](go/day01) |
-| 02  | Go         | ⭐     | ⭐     | [go/day02](go/day02) |
-| 03  | Go         | ⭐     | ⭐     | [go/day03](go/day03) |
-| 04  | Go         | ⭐     | ⭐     | [go/day04](go/day04) |
-| 05  | Python     | 📁     | 📁     | [python/day05](python/day05) |
-| 06  | Python     | 📁     | 📁     | [python/day06](python/day06) |
-| 07  | Python     | 📁     | 📁     | [python/day07](python/day07) |
-| 08  | Python     | 📁     | 📁     | [python/day08](python/day08) |
-| 09  | Python     | 📁     | 📁     | [python/day09](python/day09) |
-| 10  | TypeScript | 📁     | 📁     | [typescript/day10](typescript/day10) |
-| 11  | TypeScript | 📁     | 📁     | [typescript/day11](typescript/day11) |
-| 12  | TypeScript | 📁     | 📁     | [typescript/day12](typescript/day12) |
-| 13  | TypeScript | 📁     | 📁     | [typescript/day13](typescript/day13) |
-| 14  | TypeScript | 📁     | 📁     | [typescript/day14](typescript/day14) |
-| ... | ...        | ...    | ...    | ... |
+| Day | Language | Part 1 | Part 2 | Solution |
+|-----|----------|--------|--------|----------|
+| 01  | Go       | ⭐     | ⭐     | [go/day01](go/day01) |
+| 02  | Go       | ⭐     | ⭐     | [go/day02](go/day02) |
+| 03  | Go       | ⭐     | ⭐     | [go/day03](go/day03) |
+| 04  | Go       | ⭐     | ⭐     | [go/day04](go/day04) |
+| 05  | C        | 📁     | 📁     | [c/day05](c/day05) |
+| 06  | C        | 📁     | 📁     | [c/day06](c/day06) |
+| 07  | C        | 📁     | 📁     | [c/day07](c/day07) |
+| 08  | C        | 📁     | 📁     | [c/day08](c/day08) |
+| 09  | C        | 📁     | 📁     | [c/day09](c/day09) |
+| 10  | C++      | 📁     | 📁     | [cpp/day10](cpp/day10) |
+| 11  | C++      | 📁     | 📁     | [cpp/day11](cpp/day11) |
+| 12  | C++      | 📁     | 📁     | [cpp/day12](cpp/day12) |
+| 13  | C++      | 📁     | 📁     | [cpp/day13](cpp/day13) |
+| 14  | C++      | 📁     | 📁     | [cpp/day14](cpp/day14) |
+| 15  | Odin     | 📁     | 📁     | [odin/day15](odin/day15) |
+| 16  | Odin     | 📁     | 📁     | [odin/day16](odin/day16) |
+| 17  | Odin     | 📁     | 📁     | [odin/day17](odin/day17) |
+| 18  | Odin     | 📁     | 📁     | [odin/day18](odin/day18) |
+| 19  | Odin     | 📁     | 📁     | [odin/day19](odin/day19) |
+| ... | ...      | ...    | ...    | ... |
 
 **Legend**: ⭐ Completed | 📁 Structure ready | ⬜ Not started
 
@@ -118,18 +131,22 @@ main_test.go  # Unit tests
 README.md     # Problem description
 ```
 
-**Python** (`python/dayXX/`):
+**C** (`c/dayXX/`):
 ```
-solution.py      # Solution implementation (when started)
-test_solution.py # Unit tests (when started)
-README.md        # Problem description
+main.c        # Solution implementation
+README.md     # Problem description
 ```
 
-**TypeScript** (`typescript/dayXX/`):
+**C++** (`cpp/dayXX/`):
 ```
-solution.ts  # Solution implementation (when started)
-test.ts      # Unit tests (when started)
-README.md    # Problem description
+main.cpp      # Solution implementation
+README.md     # Problem description
+```
+
+**Odin** (`odin/dayXX/`):
+```
+main.odin     # Solution implementation
+README.md     # Problem description
 ```
 
 All languages include shared utility modules in their respective directories.
