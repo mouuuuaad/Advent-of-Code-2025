@@ -25,6 +25,13 @@ go-bench:
 	@echo "Running Go benchmarks..."
 	cd go && go test -bench=. ./...
 
+c-run:
+	@if [ -z "$(DAY)" ]; then echo "Usage: make c-run DAY=1"; exit 1; fi; \
+	day=$$(printf "%02d" $(DAY)); \
+	echo "Running C day $(DAY)..."; \
+	gcc -o c/day$$day/solution c/day$$day/main.c c/utils/input.c; \
+	cd c/day$$day && ./solution
+
 clean:
 	@echo "Cleaning build artifacts..."
 	rm -rf go/**/*.test
