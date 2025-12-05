@@ -37,4 +37,31 @@ jobs:
         working-directory: ./go
         run: go vet ./...
 
-        
+  build-c:
+    name: Build C Solutions
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install GCC
+        run: sudo apt-get update && sudo apt-get install -y gcc
+      
+      - name: GCC version
+        run: gcc --version
+      
+      - name: Build Day 5
+        run: gcc -Wall -Wextra -o c/day05/solution c/day05/main.c c/utils/input.c
+
+  build-cpp:
+    name: Build C++ Solutions
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install G++
+        run: sudo apt-get update && sudo apt-get install -y g++
+      
+      - name: G++ version
+        run: g++ --version
