@@ -1,4 +1,4 @@
-# 🎄 Advent of Code 2025 - Multi-Language Solutions
+# Advent of Code 2025 - Solutions
 
 My solutions to [Advent of Code 2025](https://adventofcode.com/2025) implemented in multiple programming languages!
 
@@ -8,7 +8,7 @@ This repository showcases solutions in different programming languages, with 4-5
 
 ```
 ├── go/            # Days 1-4   (Go) ✅
-├── c/             # Days 5-9   (C) - Structure ready
+├── c/             # Days 5-9   (C) - Answer Coming Soon! (DAY 5) 
 ├── cpp/           # Days 10-14 (C++) - Structure ready
 └── odin/          # Days 15-19 (Odin) - Structure ready
 ```
