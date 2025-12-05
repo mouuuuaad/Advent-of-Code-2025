@@ -1,4 +1,4 @@
-# Advent of Code 2025 - Solutions
+# Advent of Code 2025 - Multi-Language Solutions
 
 My solutions to [Advent of Code 2025](https://adventofcode.com/2025) implemented in multiple programming languages!
 
@@ -8,9 +8,8 @@ This repository showcases solutions in different programming languages, with 4-5
 
 ```
 ├── go/            # Days 1-4   (Go) ✅
-├── c/             # Days 5-9   (C) - Answer Coming Soon! (DAY 5) 
+├── c/             # Days 5-9   (C) - Day 5 ✅
 ├── cpp/           # Days 10-14 (C++) - Structure ready
-└── odin/          # Days 15-19 (Odin) - Structure ready
 ```
 
 
@@ -90,13 +89,6 @@ odin run .
 | 10  | C++      | 📁     | 📁     | [cpp/day10](cpp/day10) |
 | 11  | C++      | 📁     | 📁     | [cpp/day11](cpp/day11) |
 | 12  | C++      | 📁     | 📁     | [cpp/day12](cpp/day12) |
-| 13  | C++      | 📁     | 📁     | [cpp/day13](cpp/day13) |
-| 14  | C++      | 📁     | 📁     | [cpp/day14](cpp/day14) |
-| 15  | Odin     | 📁     | 📁     | [odin/day15](odin/day15) |
-| 16  | Odin     | 📁     | 📁     | [odin/day16](odin/day16) |
-| 17  | Odin     | 📁     | 📁     | [odin/day17](odin/day17) |
-| 18  | Odin     | 📁     | 📁     | [odin/day18](odin/day18) |
-| 19  | Odin     | 📁     | 📁     | [odin/day19](odin/day19) |
 | ... | ...      | ...    | ...    | ... |
 
 **Legend**: ⭐ Completed | 📁 Structure ready | ⬜ Not started
