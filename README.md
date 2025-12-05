@@ -136,12 +136,6 @@ main.cpp      # Solution implementation
 README.md     # Problem description
 ```
 
-**Odin** (`odin/dayXX/`):
-```
-main.odin     # Solution implementation
-README.md     # Problem description
-```
-
 All languages include shared utility modules in their respective directories.
 
 ## 📜 License
