@@ -8,7 +8,7 @@ This repository showcases solutions in different programming languages, with 4-5
 
 ```
 ├── go/            # Days 1-4   (Go) ✅
-├── c/             # Days 5-9   (C) - Day 5 ✅
+├── c/             # Days 5-9   (C) - Day 5 ✅, Day 6 ✅
 ├── cpp/           # Days 10-14 (C++) - Structure ready
 ```
 
@@ -81,8 +81,8 @@ odin run .
 | 02  | Go       | ⭐     | ⭐     | [go/day02](go/day02) |
 | 03  | Go       | ⭐     | ⭐     | [go/day03](go/day03) |
 | 04  | Go       | ⭐     | ⭐     | [go/day04](go/day04) |
-| 05  | C        | 📁     | 📁     | [c/day05](c/day05) |
-| 06  | C        | 📁     | 📁     | [c/day06](c/day06) |
+| 05  | C        | ⭐     | ⭐     | [c/day05](c/day05) |
+| 06  | C        | ⭐     | ⭐     | [c/day06](c/day06) |
 | 07  | C        | 📁     | 📁     | [c/day07](c/day07) |
 | 08  | C        | 📁     | 📁     | [c/day08](c/day08) |
 | 09  | C        | 📁     | 📁     | [c/day09](c/day09) |
